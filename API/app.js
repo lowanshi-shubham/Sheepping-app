@@ -16,7 +16,7 @@ import BidRouter from './routes/bid.router.js'
 //used to fetch req data from methods like : POST , PUT , PATCH , DELETE
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
-
+let a = "hello"
 //configuration to fetch file from req
 app.use(fileUpload()); 
 
